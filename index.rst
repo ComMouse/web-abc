@@ -3,20 +3,23 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Web ABC's documentation!
+欢迎阅读 Web ABC 系列教程！
 ===================================
 
-Contents:
+目录:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
+   :glob:
+
+   intro
+   topic-*/index
+.. lab-*/index
 
 
 
-Indices and tables
+搜索
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 
